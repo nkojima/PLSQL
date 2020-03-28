@@ -13,6 +13,3 @@ BEGIN
 
   DBMS_OUTPUT.PUT_LINE(area);
 END;
-
-ALTER PROCEDURE print_date COMPILE;
-EXEC calc_area(3, 5);
