@@ -1,4 +1,12 @@
--- フィボナッチ数を返すストアドファンクション
+/*
+ * フィボナッチ数を返すストアドファンクション
+ * 
+ * n: フィボナッチ数の式の中の添え字「n」。
+ *   F(0) = 0,
+ *   F(1) = 1,
+ *   F(n+2) = F(n) + F(n+1) (※nが0以上の時）
+ * return: フィボナッチ数。
+ */
 CREATE OR REPLACE FUNCTION calc_fibonacci(n IN NUMBER) RETURN NUMBER
 -- 宣言部
 IS
