@@ -6,7 +6,7 @@ DECLARE
 BEGIN
   name := '';
 
-  IF (name <> 'mkojima') THEN
+  IF (name is not null) THEN
     DBMS_OUTPUT.PUT_LINE('名前は' || name || 'です。');
   ELSE
     RAISE noNameException;
