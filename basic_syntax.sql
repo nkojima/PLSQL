@@ -4,5 +4,5 @@ DECLARE
 -- 処理部
 BEGIN
   message := 'Hello, world!';
-  DBMS_OUTPUT.PUT_LINE(message);
+  DBMS_OUTPUT.PUT_LINE('message=' || message);
 END;

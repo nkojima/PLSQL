@@ -8,5 +8,5 @@ BEGIN
   INTO date_time
   FROM DUAL;
 
-  DBMS_OUTPUT.PUT_LINE(date_time);
+  DBMS_OUTPUT.PUT_LINE('現在日=' || date_time);
 END;
