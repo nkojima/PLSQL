@@ -11,5 +11,5 @@ BEGIN
   INTO area
   FROM DUAL;
 
-  DBMS_OUTPUT.PUT_LINE(area);
+  DBMS_OUTPUT.PUT_LINE('area=' || area);
 END;
