@@ -10,3 +10,7 @@ BEGIN
 
   DBMS_OUTPUT.PUT_LINE('現在日=' || date_time);
 END;
+
+
+-- ストアドプロシージャの実行
+CALL print_date();
