@@ -13,3 +13,7 @@ BEGIN
 
   DBMS_OUTPUT.PUT_LINE('area=' || area);
 END;
+
+
+-- ストアドプロシージャの実行
+CALL calc_area(5, 3);

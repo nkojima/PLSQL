@@ -10,3 +10,16 @@ BEGIN
   INTO tax
   FROM DUAL;
 END;
+
+
+-- ストアドプロシージャの実行
+DECLARE
+  in_price NUMBER;
+  out_tax NUMBER;
+BEGIN
+  in_price := 100;
+  
+  calc_consumption_tax(in_price, out_tax);
+  DBMS_OUTPUT.PUT_LINE('税抜き価格=' || in_price);
+  DBMS_OUTPUT.PUT_LINE('消費税額(10%)=' || out_tax);
+END;
