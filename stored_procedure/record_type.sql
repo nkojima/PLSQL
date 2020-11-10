@@ -1,5 +1,5 @@
 CREATE OR REPLACE PACKAGE record_type IS
-  -- 社長の情報を格納するレコード型（構造体）
+  -- 社長の情報を格納するレコード型（≒構造体）
   TYPE PRESIDENT_ROW IS RECORD (
     emp_no NUMBER,
     emp_name VARCHAR2(32767),
@@ -17,7 +17,7 @@ CREATE OR REPLACE PACKAGE BODY record_type IS
   -- 社長の情報を表示するストアドプロシージャ。
   PROCEDURE print_president_info
     IS
-      -- レコード型の変数
+      -- レコード型（PRESIDENT_ROW型）の変数
       president PRESIDENT_ROW;
     BEGIN
       SELECT
