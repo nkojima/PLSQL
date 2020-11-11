@@ -1,5 +1,6 @@
 -- 宣言部
 DECLARE
+  -- SCOTT.DEPT表の行全体（または一部）を表すROWTYPE属性の変数
   dep SCOTT.DEPT%ROWTYPE;
 -- 処理部
 BEGIN
