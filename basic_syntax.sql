@@ -1,3 +1,5 @@
+-- PL/SQLの基本構文
+
 -- 宣言部
 DECLARE
   message VARCHAR2(50);

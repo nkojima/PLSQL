@@ -1,3 +1,5 @@
+-- PL/SQLの条件分岐の例
+
 -- 宣言部
 DECLARE
   name VARCHAR2(10);
