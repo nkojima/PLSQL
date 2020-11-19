@@ -1,3 +1,5 @@
+-- PL/SQLの例外処理の例
+
 -- 宣言部
 DECLARE
   name VARCHAR2(10);

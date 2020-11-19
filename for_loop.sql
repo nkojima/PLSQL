@@ -1,3 +1,5 @@
+-- PL/SQLのFOR文の例
+
 -- 宣言部
 DECLARE
 -- 処理部
