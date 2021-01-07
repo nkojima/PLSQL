@@ -4,8 +4,8 @@
  * 2020/12/23 nkojima
  */
 SELECT
-  line, -- 行番号
-  text  -- コード
+  line AS 行番号,
+  text AS コード
 FROM
   user_source
 WHERE
