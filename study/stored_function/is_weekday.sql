@@ -1,6 +1,8 @@
--- 平日（月～金）であるかを判定する。
--- dt: 判定する日付。
--- RETURN: 平日であれば0、土日であれば1を返す。
+/*
+ * 引数の日付が平日（月～金）であるかを判定する。
+ * dt: 判定する日付。
+ * RETURN: 平日であれば0、土日であれば1を返す。
+ */
 CREATE OR REPLACE FUNCTION is_weekday(dt IN DATE) RETURN NUMBER
 -- 宣言部
 IS
