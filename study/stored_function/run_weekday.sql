@@ -1,3 +1,6 @@
+/*
+ * is_weekday.sqlを実行するためのSQL。
+ */
 -- 宣言部
 DECLARE
   dt DATE;
