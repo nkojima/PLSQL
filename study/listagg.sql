@@ -1,3 +1,5 @@
+-- LISTAGG関数を使ったサンプルコード。
+-- 部署ごとに従業員のメールアドレスをカンマ区切りで連結している。
 SELECT
   T1.DNAME AS DEPT_NAME,
   LISTAGG(T2.ENAME, ',') WITHIN GROUP (ORDER BY T2.ENAME ASC) AS DEPT_MEMBERS
